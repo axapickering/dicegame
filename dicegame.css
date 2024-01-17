@@ -1,0 +1,23 @@
+body {
+  background-color: cornflowerblue;
+}
+
+header {
+  font-size: 60px;
+  margin: 0;
+  height: 10vh;
+  width: 100vw;
+  background-color: red;
+}
+
+#roll-tracker-container {
+
+}
+
+#dice-board-container {
+
+}
+
+#die {
+
+}
