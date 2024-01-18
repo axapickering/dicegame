@@ -3,6 +3,9 @@ body {
 }
 
 header {
+  position: absolute;
+  top: 0%;
+  left:0%;
   font-size: 60px;
   margin: 0;
   height: 10vh;
@@ -10,14 +13,44 @@ header {
   background-color: red;
 }
 
-#roll-tracker-container {
+#score-container {
+  background-color: purple;
+  position: absolute;
+  left:0%;
+  top:10%;
+  height: 10vh;
+  width: 25vw;
+}
 
+#roll-tracker-container {
+  font-size: 40px;
+  position: absolute;
+  left:0%;
+  top:20%;
+  background-color: greenyellow;
+  height: 80vh;
+  width: 25vw;
+  padding: 20px;
 }
 
 #dice-board-container {
-
+  background-color: black;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  height: 90%;
+  width: 75%;
 }
 
 #die {
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 45vh;
+  height:10px;
+  width: 10px;
+}
 
+#score-text {
+  margin: auto;
+  font-size: 80px;
 }
